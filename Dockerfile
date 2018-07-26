@@ -9,8 +9,8 @@ RUN sed -i "s/http:\/\/archive./http:\/\/ph.archive./g" /etc/apt/sources.list
 
 # Install node.js
 RUN apt-get update && \
-    apt-get install curl -y && \
-    curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash - && \
+    apt-get install curl sudo -y && \
+    curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - && \
     apt-get install -y nodejs 
 
 COPY . /app
