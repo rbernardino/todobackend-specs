@@ -6,15 +6,15 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Justin Menga",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.5.1",
-    "chai": "^4.1.2",
+    "bluebird": "^3.7.2",
+    "chai": "^4.3.0",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^5.2.0",
-    "mocha-jenkins-reporter": "^0.3.12",
-    "superagent": "^3.8.3",
+    "mocha": "^8.3.0",
+    "mocha-jenkins-reporter": "^0.4.5",
+    "superagent": "^6.1.0",
     "superagent-promise": "^1.1.0"
   }
 }
